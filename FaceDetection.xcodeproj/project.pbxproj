@@ -13,6 +13,7 @@
 		C92D66381D97F3EA004DD964 /* FaceDetection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C92D66361D97F3EA004DD964 /* FaceDetection.xcdatamodeld */; };
 		C92D663A1D97F3EA004DD964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92D66391D97F3EA004DD964 /* Assets.xcassets */; };
 		C92D663D1D97F3EA004DD964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92D663B1D97F3EA004DD964 /* LaunchScreen.storyboard */; };
+		C9C414CE1D98007800833AB2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C414CD1D98007800833AB2 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C92D66391D97F3EA004DD964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92D663C1D97F3EA004DD964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C92D663E1D97F3EA004DD964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C414CD1D98007800833AB2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C414CE1D98007800833AB2 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				C92D662E1D97F3EA004DD964 /* FaceDetection */,
 				C92D662D1D97F3EA004DD964 /* Products */,
+				C9C414CC1D98007800833AB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				C92D66361D97F3EA004DD964 /* FaceDetection.xcdatamodeld */,
 			);
 			path = FaceDetection;
+			sourceTree = "<group>";
+		};
+		C9C414CC1D98007800833AB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C414CD1D98007800833AB2 /* CoreImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +316,7 @@
 				C92D66431D97F3EA004DD964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
